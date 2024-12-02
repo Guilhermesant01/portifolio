@@ -1,0 +1,49 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    position: relative; /* Isso garante que a imagem seja posicionada em relação ao body */
+    background-image: url(img/WhatsApp\ Image\ 2024-12-02\ at\ 10.59.28.jpeg);
+    width: 95%;
+    height: 100%;
+    
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+}
+
+p {
+    text-align: center;
+    border-radius: 20px;
+    width: 1350px;
+    height: 100px;
+    border-color: black;
+   
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+img {
+    position: absolute; /* Para posicionar a imagem no canto superior esquerdo */
+    top: 5px; /* Distância do topo */
+    left: 10px; /* Distância da esquerda */
+    height: 135px; /* Definindo um tamanho pequeno */
+    width: 150px;  /* Definindo um tamanho pequeno */
+    max-width: none; /* Não limite a largura da imagem */
+}
+
+header {
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    left: 100px;
+    text-align: center;
+}
+
